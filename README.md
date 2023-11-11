@@ -51,10 +51,10 @@ The project aims to develop an image classification Machine Learning Model using
 
 #### 3.2.1. Execution Flow of the Step Function 
 
-[Screenshot of the Working of the Step Function](Step Function Images/Screenshot of the Working of Step Function.png)
+[Screenshot of the Working of the Step Function](https://github.com/priyam-saha-17/Build-a-ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker/blob/7a361023367b386a1b8f1098c7bcebc5f40b4038/Step%20Function%20Images/Screenshot%20of%20the%20Working%20of%20Step%20Function.png)
 
 #### 3.2.2. Step Function Graph
 
-![Step Functions Graph](Step Function Images/stepfunctions_graph 1.png)
+[Step Function Graph](https://github.com/priyam-saha-17/Build-a-ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker/blob/main/Step%20Function%20Images/stepfunctions_graph%201.png)
 
 Thank you for taking the time to visit this repository!
