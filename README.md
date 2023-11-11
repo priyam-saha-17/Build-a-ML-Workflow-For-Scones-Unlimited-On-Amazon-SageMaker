@@ -43,9 +43,9 @@ The project aims to develop an image classification Machine Learning Model using
 
 ### 3.1. Individual AWS Lambda functions drafted to build an AWS Step Functions Workflow:<br>
 
-1. The `serializeImageData.py` Lambda Function [serializeImageData.py](https://github.com/priyam-saha-17/Build-a-ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker/blob/376b09800f2f600748eb3505d73b5cee8e8b9bc9/Lambda%20Functions/serializeImageData.py) takes the address of an image hosted in S3, and returns a serialized JSON object.<br>
-2. The `imageClassifier.py` Lambda Function [imageClassifier.py](https://github.com/priyam-saha-17/Build-a-ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker/blob/376b09800f2f600748eb3505d73b5cee8e8b9bc9/Lambda%20Functions/imageClassifier.py) accepts the JSON object obtained from step 1 and sends it to an endpoint, collecting inferences as a JSON object.<br>
-3. The `filterLowConfidenceInterferences.py` Lambda Function [filterLowConfidenceInterferences.py](https://github.com/priyam-saha-17/Build-a-ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker/blob/376b09800f2f600748eb3505d73b5cee8e8b9bc9/Lambda%20Functions/filterLowConfidenceInterferences.py) takes the inference data from step 2, and filters only the images that meet the pre-defined threshold.<br>
+1. The `serializeImageData.py` Lambda Function: [serializeImageData.py](https://github.com/priyam-saha-17/Build-a-ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker/blob/376b09800f2f600748eb3505d73b5cee8e8b9bc9/Lambda%20Functions/serializeImageData.py) takes the address of an image hosted in S3, and returns a serialized JSON object.<br>
+2. The `imageClassifier.py` Lambda Function: [imageClassifier.py](https://github.com/priyam-saha-17/Build-a-ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker/blob/376b09800f2f600748eb3505d73b5cee8e8b9bc9/Lambda%20Functions/imageClassifier.py) accepts the JSON object obtained from step 1 and sends it to an endpoint, collecting inferences as a JSON object.<br>
+3. The `filterLowConfidenceInterferences.py` Lambda Function: [filterLowConfidenceInterferences.py](https://github.com/priyam-saha-17/Build-a-ML-Workflow-For-Scones-Unlimited-On-Amazon-SageMaker/blob/376b09800f2f600748eb3505d73b5cee8e8b9bc9/Lambda%20Functions/filterLowConfidenceInterferences.py) takes the inference data from step 2, and filters only the images that meet the pre-defined threshold.<br>
 
 ### 3.2. Building a State Machine via AWS Step Functions
 
